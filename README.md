@@ -1,73 +1,38 @@
-# Welcome to your Lovable project
+# 🕰️ ChronoVoyage - Agence de Voyage Temporel
 
-## Project info
+## 📝 Titre & Description
+**ChronoVoyage** est une application web innovante simulant une agence de voyage dans le temps. Elle permet aux utilisateurs d'explorer et de "réserver" des séjours historiques immersifs (comme Paris lors de l'Exposition Universelle de 1889, le Crétacé au milieu des dinosaures, ou encore Florence en 1504). Le site intègre **ChronoBot**, un assistant virtuel interactif chargé d'accompagner les voyageurs dans le choix de leur aventure temporelle.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🛠️ Stack technique
+Ce projet est construit avec des technologies web modernes et performantes :
+* **React (v18)** : Bibliothèque front-end pour la création d'interfaces utilisateurs.
+* **TypeScript** : Pour un typage statique et un code plus robuste.
+* **Vite** : Outil de build extrêmement rapide.
+* **Tailwind CSS** & **shadcn-ui** : Pour une conception de l'interface esthétique, responsive et modulaire.
+* **Framer Motion** : Pour la gestion des animations fluides de l'interface (notamment le ChatBot).
 
-## How can I edit this code?
+## ✨ Features implémentées
+* **Interface vitrine complète** : Navigation (Navbar), section d'accueil (HeroSection), guide d'utilisation (HowItWorks), témoignages (Testimonials) et Footer.
+* **Catalogue de destinations (DestinationCards)** : Présentation des différentes époques disponibles avec détails et tarification en "ChronoCrédits".
+* **ChronoBot (Assistant Virtuel)** : Un chatbot interactif flottant doté de réponses rapides (Quick Replies), d'un indicateur de frappe (Typing indicator) et d'un système d'assistance contextuelle pour répondre aux questions sur les destinations, les prix et la sécurité.
 
-There are several ways of editing your application.
+## 🤖 Outils IA utilisés
+* **Mistral AI** : Intégré/utilisé pour la conception de la logique conversationnelle et la génération des réponses intelligentes de l'assistant.
+* **Lovable / Génération de code assistée par IA** : Utilisé pour le scaffolding initial de l'application, l'intégration des composants shadcn-ui et l'accélération du développement.
 
-**Use Lovable**
+## 🚀 Instructions d'installation
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Pour exécuter ce projet localement, assurez-vous d'avoir [Node.js](https://nodejs.org/) installé sur votre machine, puis suivez ces étapes :
 
-Changes made via Lovable will be committed automatically to this repo.
+```bash
+# 1. Clonez le dépôt
+git clone https://github.com/anto95240/Project-final-IA
 
-**Use your preferred IDE**
+# 2. Accédez au répertoire du projet
+cd src
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+# 3. Installez les dépendances
+npm install
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Lancez le serveur de développement
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
