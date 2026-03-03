@@ -15,6 +15,7 @@ Webapp interactive pour une agence de voyage temporel fictive, créée avec l'ai
 
 ## 🤖 IA Utilisées
 - Code & UI : Lovable (Génération assistée par IA)
+- Logique conversationnelle : Mistral AI
 - Visuels : Gemini (Projet 1)
 
 ## 🚀 Installation
