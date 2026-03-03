@@ -20,7 +20,7 @@ Webapp interactive pour une agence de voyage temporel fictive, créée avec l'ai
 ## 🚀 Installation
 ```bash
 # 1. Clonez le dépôt
-git clone https://github.com/anto95240/Project-final-IA
+git clone https://github.com/anto95240/Richard-Antoine_projetFinalAI
 
 # 2. Accédez au répertoire du projet
 cd src
